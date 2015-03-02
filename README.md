@@ -1,8 +1,8 @@
 ##(on working)A simple lib for js lost part
---
+---
 
 ###Todo list
---
+---
 ####Type Check
 * isString()
 * isNumber()
@@ -20,17 +20,23 @@
 * endWith()
 * replaceAll()
 * toDate(dateFormate)
-* isBlank() `'/n', ' ', '/r', ect...`
+* isBlank() `'/n', ' ', '/r', ect...`  
 * join()
-* hasSpecialChar(specialChars)
-* filterSpecialChart(specialChars)
+* hasChars(chars)
+* replaceChars(chars)
 * isUrl()
+* isEmailAddr()
 
 ####Array Helper
+* SOMTHING.inArray()
 
 ####Object Helper
 
 ####Number Helper
 
+####DateTime Helper
+
 ####Browser
 * shit here
+
+####Others
