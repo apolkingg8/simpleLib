@@ -1,7 +1,7 @@
 ##(on working)A simple lib for js lost part
 ---
 
-###Todo list
+###Todo list(add on prototype...or not?)
 ---
 ####Type Check
 * isString()
@@ -12,7 +12,9 @@
 * isObject()
 * isBool()
 
-####String Helper (add on String.prototype...or not?)
+####Number
+
+####String
 * trim()
 * trimLeft()
 * trimRight()
@@ -27,16 +29,33 @@
 * isUrl()
 * isEmailAddr()
 
-####Array Helper
-* SOMTHING.inArray()
+####Array
+* clone()
+* inArray()
+* sortBy()
+* indexOf() //return num or [nums]
+* union()
+* intersection()
+* difference()
 
-####Object Helper
+####Object
+* clone()
+* getKeys()
+* getOwnKeys()
+* getAllKeys() //include childrens
 
-####Number Helper
+####JSON
+* clone()
+* findObjFromKey()
+* findObjFromValue()
+* findObjFromKeyValue()
 
-####DateTime Helper
+####DateTime
+* toDateString()
 
 ####Browser
 * shit here
 
 ####Others
+* Klass function
+* *.hash()
