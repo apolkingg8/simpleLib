@@ -4,13 +4,20 @@
 ###Todo list(add on prototype...or not?)
 ---
 ####Type Check
-* isString()
-* isNumber()
-* isInt()
-* isFloat()
-* isArray()
-* isObject()
-* isBool()
+- isElement
+- isArray
+- isObject
+- isArguments
+- isFunction
+- isString
+- isNumber
+- isFinite
+- isBoolean
+- isDate
+- isRegExp
+- isNaN
+- isNull
+- isUndefined
 
 ####Number
 
@@ -37,21 +44,26 @@
 * union()
 * intersection()
 * difference()
+* first(num)
+* last(num)
+* without(string or num)
 
 ####Object
 * clone()
 * getKeys()
 * getOwnKeys()
 * getAllKeys() //include childrens
+* getKeysByValue() //return array
 
 ####JSON
 * clone()
-* findObjFromKey()
-* findObjFromValue()
-* findObjFromKeyValue()
+* findObjByKey()
+* findObjByValue()
+* findObjByValue()
 
 ####DateTime
-* toDateString()
+* toDateString(format)
+*
 
 ####Browser
 * shit here
@@ -59,3 +71,4 @@
 ####Others
 * Klass function
 * *.hash()
+* *.equalWith()
