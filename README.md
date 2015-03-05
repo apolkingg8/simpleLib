@@ -3,6 +3,7 @@
 
 ###Todo list(add on prototype...or not?)
 ---
+
 ####Type Check
 - isElement
 - isArray
@@ -20,13 +21,41 @@
 - isUndefined
 
 ####Number
+* #####ES6 feature
+  * parseInt
+  * parseFloat
+
+####Math
+  * Math.trunc //es6
+  ```js
+  Math.trunc(4.1) // 4
+  Math.trunc(4.9) // 4
+  Math.trunc(-4.1) // -4
+  Math.trunc(-4.9) // -4
+  ```
+  * Math.sign //es6
+  ```js
+  Math.sign(-5) // -1
+  Math.sign(5) // +1
+  Math.sign(0) // +0
+  Math.sign(-) // -0
+  Math.sign(NaN) // NaN
+  ```
+
 
 ####String
+#####ES6 feature
+* fromCodePoint
+* codePointAt
+* repeat
+* startsWith
+* endWith
+* contains
+
+#####Additional
 * trim()
 * trimLeft()
 * trimRight()
-* startWith()
-* endWith()
 * replaceAll()
 * toDate(dateFormate)
 * isBlank() `'/n', ' ', '/r', ect...`  
@@ -66,7 +95,7 @@
 *
 
 ####Browser
-* shit here
+* (shit here)
 
 ####Others
 * Klass function
