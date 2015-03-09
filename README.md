@@ -1,5 +1,4 @@
 ##(on working)A simple lib for js lost part
-pandding
 ---
 
 ###Todo list(add on prototype...or not?)
